@@ -1,0 +1,222 @@
+/* UNIVERSAL */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0e1013;
+    color: #fff;
+}
+.maincontent {
+    margin: 30px; /* Ngasih jarak supaya gak mepet sisi halaman */
+}
+a {
+    color: white;
+}
+
+/* NAVIGASI */
+
+.topnav  {
+    display: flex;
+    list-style-type: none;
+    align-content: flex-end;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #17181b;
+}
+#logoAnime {
+    display: flex;
+    width: 60px;
+    border-radius: 50%;
+}
+#navigation {
+    display: flex;
+    gap: 30px;
+}
+#htop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+
+/* KONTEN UTAMA */
+
+.kontainer {
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.slidegambar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.slider {
+    width: 800px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+#main1 {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+
+/* FORMULIR NAMA EMAIL TELEPON PESAN */
+
+.judulform {
+    display: block;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.isian {
+    border-radius: 1px;
+    flex-direction: column;
+    padding: 20px;
+}
+.form {
+    background-color: #17181b;
+    width: 40%;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.form input, textarea, button {
+    background-color: #282a2d;
+    width: 80%;
+    padding: 15px 20px;
+    margin-top: 10px;
+    color: #fff;
+    }
+textarea {
+    flex-grow: 1;
+    resize: none;
+    box-sizing: border-box;
+}
+.main3 {
+    width: 50%;
+    padding: 10px 20px 10px 40px;
+}
+
+
+/* OUR PACKAGE */
+
+.package {
+    background-color: #17181b;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#ourpackage {
+    text-align: center;
+    background-color: #17181b;
+    padding: 30px;
+    border-radius: 20px;
+}
+.packsec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pack {
+    display: inline;
+    width: 400px;
+    height: 250px;
+    background-color: #282a2d;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.pack p {
+    font-size: 20px;
+    padding-left: 20px;
+}
+.titlepack h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.pack img {
+    width: 40px;
+}
+.pack h3 {
+    display: inline-flex;
+    font-size: 30px;
+}
+.pack li {
+    color: #fff;
+    font-size: 30px;
+}
+
+/* CLOSING ARGUMENT */
+.closing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;;
+}
+.closing h2, p {
+text-align: center;
+}
+.tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.tombol button {
+    background-color: #282a2d;
+    color: #ccc;
+    opacity: 0.7;
+    transition: 0.3s;
+    padding: 16px 32px;
+    width: 30%;
+}
+.tombol button:hover {
+    opacity: 1;
+}
+.foot {
+    background-color: #282a2d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding-top: 30px;
+    color: white;
+}
+
+#namecomp {
+    margin-bottom: 10px;
+}
+
+.copyright2 p {
+    display: inline-block; /* agar paragraph berada di 1 baris */
+}
